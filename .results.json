@@ -5,9 +5,9 @@
     "passes": 9,
     "pending": 0,
     "failures": 0,
-    "start": "2023-09-10T21:50:51.869Z",
-    "end": "2023-09-10T21:50:52.153Z",
-    "duration": 284
+    "start": "2023-09-11T22:22:11.197Z",
+    "end": "2023-09-11T22:22:11.558Z",
+    "duration": 361
   },
   "tests": [
     {
@@ -48,7 +48,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -115,7 +115,7 @@
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
