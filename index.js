@@ -1,6 +1,6 @@
 function scuberGreetingForFeet(num){
   // Write your code here!
-  if (num < 400) {
+  if (num <= 400) {
     return 'This one is on me!';
   } else if (num < 2000) {
     return 'That will be twenty bucks.';
