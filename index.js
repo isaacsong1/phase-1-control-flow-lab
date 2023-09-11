@@ -2,20 +2,17 @@ function scuberGreetingForFeet(num){
   // Write your code here!
   if (num <= 400) {
     return 'This one is on me!';
-  } else if (num < 2000) {
+  } else if (num <= 2000) {
     return 'That will be twenty bucks.';
-  } else if (num < 2500) {
+  } else if (num <= 2500) {
     return 'I will gladly take your thirty bucks.';
-  } else {
-    return 'No can do.'
-  }
+  } 
+  return 'No can do.';
 }
 
 function ternaryCheckCity(city){
   // Write your code here!
-  let phrase;
-  (city === 'NYC') ?  phrase = 'Ok, sounds good.' : phrase = 'No go.';
-  return phrase;
+  return (city === 'NYC') ? 'Ok, sounds good.' : 'No go.';
 }
 
 function switchOnCharmFromTip(tip){
